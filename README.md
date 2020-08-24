@@ -2,6 +2,7 @@
 A python flask project which user beautifulsoup to scrape github and get the user repositories
 
 # Documentation
+Url= http://fredsomy2.pythonanywhere.com/
 * /repo/id {id=github username }
   * Gives you the repository details
 
