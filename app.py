@@ -1,10 +1,11 @@
 from flask import  Flask
 from flask import jsonify
+from flask_cors import CORS
 import requests
 from bs4 import BeautifulSoup
 import html5lib
 app=Flask(__name__)
-
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
 @app.route("/")
 def hello():
     return "hello world"
@@ -45,8 +46,22 @@ def hh(id):
             print("none")
         
     return jsonify(er)
-        
+@app.route('/user/<id>') 
+def st(id):
+    urll="https://github.com/"+id
+    r=requests.get(urll)
+    soup=BeautifulSoup(r.content,'html5lib')
+    asd=soup.find(class_="flex-order-1 flex-md-order-none mt-2 mt-md-0")
+    dd=asd.find(class_="mb-3")
+    followers=dd.find_all('a')[0].find('span').getText().strip(' ')
+    following=dd.find_all('a')[1].find('span').getText().strip(' ')
+    totstars=dd.find_all('a')[2].find('span').getText().strip(' ')
+
+
+    las={'Followers':followers,'Following':following,'Total_stars':totstars}
+    return(las)
+   
+
     
 if __name__ == "__main__":
     app.run()
-
