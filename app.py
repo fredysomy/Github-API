@@ -1,4 +1,5 @@
 from flask import  Flask
+from flask import jsonify
 import requests
 from bs4 import BeautifulSoup
 import html5lib
@@ -15,7 +16,7 @@ def hh(id):
     a=soup.find(id="user-repositories-list")
     z=a.find_all('li')
     yo={}
-    er={}
+    er=[]
     
     for i in range(0,len(z)):
         s=z[i]
@@ -32,19 +33,20 @@ def hh(id):
                 name=y.getText()
                 url="https://github.com"+x
                 k={'name':name.strip(),'description':j.strip(),'url':url,"stars":sds.strip()}
+                er=er+[k]
             except:
                 ur=[]
                 h=y.getText()
                 y="https://github.com"+x
                 k={'name': h.strip(),'url':y,"stars":sds.strip()}
-            rep="rep"+str(i)
-            yo[rep]=k
+                er=er+[k]
             
         except:
             print("none")
         
-    return(yo)
+    return jsonify(er)
         
     
 if __name__ == "__main__":
     app.run()
+
