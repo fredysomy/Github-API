@@ -10,6 +10,6 @@ Url= http://gitapi.pythonanywhere.com/
     * I wiil return the first 30 repos in your account.
 * /user/id {id=github username }
   * Gives some datails of user
-   * {"Followers": "10","Following": "26","Total_stars": "69"}
-   * features yet to be added
+    * {"Followers": "10","Following": "26","Total_stars": "69"}
+    * features yet to be added
 ### MORE FEATURES TO BE ADDED.
