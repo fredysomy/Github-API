@@ -14,4 +14,3 @@ Url= http://gitapi.pythonanywhere.com/
     * features yet to be added
 ### MORE FEATURES TO BE ADDED.
 
-![Fredy's github stats](http://gitapi.pythonanywhere.com/)
