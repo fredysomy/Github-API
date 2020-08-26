@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucess</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">
+          <img src="https://og.github.com/mark/github-mark@1200x630.png" width="50" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+          Git-API (v1)
+        </a>
+      </nav>
+
+      <div class="jumbotron" style="height:fit-content;padding: 10px;">
+        <h1 class="display-4" style="font-size: 2.4em;">API Documentation</h1>
+        </div>
+        <p style="margin-left:10px;"><code>Base URL="http://gitapi.pythonanywhere.com/"</code></p>
+      <div class="jumbotron" style="height:fit-content;padding: 15px;">
+        
+        <code style="font-size: 20px;">/repo/id {id=github username}</code><br>
+        <ul>
+            <p>This endpoint gives the details of the user's repositories</p>
+            <ul>
+                <li><code>
+                    [{"description": "🐍A python ⚗️flask project which user 🍵beautifulsoup to scrape github and get the user repositories","name": "Github-API",
+"stars": "2",
+"url": "https://github.com/fredysomy/Github-API"
+}]....</code>
+                </li>
+                
+            </ul>
+            <li>
+                This endpoint gives details of first 30 user repositories
+            </li>
+        </ul>
+
+
+       
+      </div>
+      <div class="jumbotron" style="height:fit-content;padding: 15px;">
+        <code style="font-size: 20px;">/user/id {id=github username}</code><br>
+        <ul>
+            <li>This endpoint gives the details of the user</li>
+            <ul>
+                <li><code>
+                    {
+                        "Followers": "10",
+                        "Following": "26",
+                        "Name": "Realname",
+                        "ProfilePic": profilepic.png,
+                        "Total-repos": "29",
+                        "Total_stars": "69",
+                        "Username": "username"
+                        }
+                  </code>
+                </li>
+                
+            </ul>
+            <li>
+                This endpoint gives details of first 30 user repositories
+            </li>
+        </ul>
+
+
+      </div>
+      <p class="lead text text-center" >Made with <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png" width="19px" height="19px"> by Fredy Somy</p>    <div style="display:flex;flex-direction: row;justify-content: center;">
+        <a href="https://github.com/fredysomy/Github-API/" target="_blank" class="giticon" style="margin:1%;"><img class="logo" src="https://img.icons8.com/fluent/35/000000/github--v1.png"/></a> 
+        <a href="https://www.linkedin.com/in/fredysomy/" target="_blank" class="giticon" style="margin:1%;"><img class="logo" src="https://img.icons8.com/fluent/35/000000/linkedin.png"/></a> 
+        
+        
+        </div>
+      
+       
+      
+   
+</body>
+</html>
