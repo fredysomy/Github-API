@@ -13,3 +13,5 @@ Url= http://gitapi.pythonanywhere.com/
     * {"Followers": "10","Following": "26","Total_stars": "69"}
     * features yet to be added
 ### MORE FEATURES TO BE ADDED.
+
+![Fredy's github stats](http://gitapi.pythonanywhere.com/)
