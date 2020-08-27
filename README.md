@@ -1,7 +1,8 @@
 # Github-API
 A python flask project which user beautifulsoup to scrape github and get the user repositories
 
-# Documentation
+# Documentation-http://gitapi.pythonanywhere.com/
+
 Url= http://gitapi.pythonanywhere.com/
 * /repo/id {id=github username }
   * Gives you the repository details
