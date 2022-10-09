@@ -2,7 +2,7 @@ altgraph==0.17
 appdirs==1.4.4
 auto-py-to-exe==2.7.4
 beautifulsoup4==4.8.2
-bottle==0.12.18
+bottle==0.12.20
 bottle-websocket==0.2.9
 certifi==2019.11.28
 cffi==1.14.0
@@ -30,7 +30,7 @@ html5lib==1.0.1
 idna==2.9
 importlib-metadata==1.7.0
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 Js2Py==0.68
 kiwisolver==1.2.0
 MarkupSafe==1.1.1
