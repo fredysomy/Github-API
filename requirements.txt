@@ -2,7 +2,7 @@ altgraph==0.17
 appdirs==1.4.4
 auto-py-to-exe==2.7.4
 beautifulsoup4==4.8.2
-bottle==0.12.18
+bottle==0.12.20
 bottle-websocket==0.2.9
 certifi==2019.11.28
 cffi==1.14.0
