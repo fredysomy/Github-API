@@ -2,7 +2,7 @@ altgraph==0.17
 appdirs==1.4.4
 auto-py-to-exe==2.7.4
 beautifulsoup4==4.8.2
-bottle==0.12.18
+bottle==0.12.20
 bottle-websocket==0.2.9
 certifi==2019.11.28
 cffi==1.14.0
@@ -64,7 +64,7 @@ six==1.14.0
 soupsieve==2.0
 SpeechRecognition==3.8.1
 tzlocal==2.0.0
-urllib3==1.25.8
+urllib3==1.26.5
 virtualenv==20.0.31
 waitress==1.4.4
 webdriver-manager==2.3.0
@@ -74,3 +74,4 @@ whichcraft==0.6.1
 zipp==3.1.0
 zope.event==4.4
 zope.interface==5.1.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
