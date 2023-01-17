@@ -20,7 +20,7 @@ filelock==3.0.12
 Flask==1.1.2
 Flask-Cors==3.0.8
 Flask-Jsonpify==1.5.0
-future==0.18.2
+future==0.18.3
 gevent==20.6.0
 gevent-websocket==0.10.1
 greenlet==0.4.16
