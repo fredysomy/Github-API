@@ -71,6 +71,6 @@ webdriver-manager==2.3.0
 webencodings==0.5.1
 Werkzeug==1.0.1
 whichcraft==0.6.1
-zipp==3.1.0
+zipp==3.19.1
 zope.event==4.4
 zope.interface==5.1.0
